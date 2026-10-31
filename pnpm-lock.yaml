@@ -21,7 +21,7 @@ importers:
       '@eslint/js':
         specifier: ^9.39.2
         version: 9.39.2
-      '@github/local-action':
+      '@ronaldphilipsen/local-action':
         specifier: ^7.0.0
         version: 7.0.0(eslint@9.39.2)
       '@jest/globals':
@@ -622,7 +622,7 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@github/local-action@7.0.0':
+  '@ronaldphilipsen/local-action@7.0.0':
     resolution: {integrity: sha512-ARVwimoIcQGrhb7AsmRRTf+nHNTNJZTk76IXrgGqL//8Y1wg+Rt0gLw9OK48vhKgJpnLjs+k58Phso9G78xkmg==}
     engines: {node: ^20 || ^22 || ^24}
     hasBin: true
@@ -4323,7 +4323,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@github/local-action@7.0.0(eslint@9.39.2)':
+  '@ronaldphilipsen/local-action@7.0.0(eslint@9.39.2)':
     dependencies:
       '@actions/artifact': 5.0.2
       '@actions/cache': 5.0.3
